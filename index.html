@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0">
+    <title>MASU PHOTO | USA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+JP:wght@300;400&family=Shippori+Mincho:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+    <div class="noise"></div>
+    <header class="page-header">
+        <a class="page-brand" href="index.html">MASU PHOTO</a>
+                <nav class="page-nav">
+            <a href="#book-viewer">Photo Book</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="book-header" data-animate id="about">
+            <p class="book-label">MASU PHOTO</p>
+            <h1>MASU PHOTO | USA</h1>
+            <p class="book-year">2024 / BOOK FIVE</p>
+        </section>
+
+        <section class="book-viewer" id="book-viewer">
+            <div class="book-shell desktop-only">
+                <div class="book-spine"></div>
+                <div class="book-page book-page-left">
+                    <img src="pages/2.jpg" alt="MASU PHOTO USA 2">
+                </div>
+                <div class="book-page book-page-right">
+                    <img src="pages/3.jpg" alt="MASU PHOTO USA 3">
+                </div>
+                <button class="book-nav prev" type="button" aria-label="前のページ">‹</button>
+                <button class="book-nav next" type="button" aria-label="次のページ">›</button>
+                <div class="book-page-indicator">
+                    <span data-book-current>1–2</span>
+                </div>
+            </div>
+            <div class="mobile-gallery mobile-only" aria-label="USA photo book">
+                <div class="book-mobile-grid" data-mobile-grid></div>
+            </div>
+            <div class="viewer-pages" data-viewer-pages>
+                <span data-src="pages/2.jpg" data-alt="MASU PHOTO USA 2"></span>
+                <span data-src="pages/3.jpg" data-alt="MASU PHOTO USA 3"></span>
+                <span data-src="pages/4.jpg" data-alt="MASU PHOTO USA 4"></span>
+                <span data-src="pages/5.jpg" data-alt="MASU PHOTO USA 5"></span>
+                <span data-src="pages/6.jpg" data-alt="MASU PHOTO USA 6"></span>
+                <span data-src="pages/7.jpg" data-alt="MASU PHOTO USA 7"></span>
+                <span data-src="pages/8.jpg" data-alt="MASU PHOTO USA 8"></span>
+                <span data-src="pages/9.jpg" data-alt="MASU PHOTO USA 9"></span>
+                <span data-src="pages/10.jpg" data-alt="MASU PHOTO USA 10"></span>
+                <span data-src="pages/11.jpg" data-alt="MASU PHOTO USA 11"></span>
+                <span data-src="pages/12.jpg" data-alt="MASU PHOTO USA 12"></span>
+                <span data-src="pages/13.jpg" data-alt="MASU PHOTO USA 13"></span>
+                <span data-src="pages/14.jpg" data-alt="MASU PHOTO USA 14"></span>
+                <span data-src="pages/15.jpg" data-alt="MASU PHOTO USA 15"></span>
+                <span data-src="pages/16.jpg" data-alt="MASU PHOTO USA 16"></span>
+                <span data-src="pages/17.jpg" data-alt="MASU PHOTO USA 17"></span>
+                <span data-src="pages/18.jpg" data-alt="MASU PHOTO USA 18"></span>
+                <span data-src="pages/19.jpg" data-alt="MASU PHOTO USA 19"></span>
+                <span data-src="pages/20.jpg" data-alt="MASU PHOTO USA 20"></span>
+                <span data-src="pages/21.jpg" data-alt="MASU PHOTO USA 21"></span>
+            </div>
+            <div class="book-thumbs" data-viewer-thumbs></div>
+        </section>
+    </main>
+
+    <footer class="page-footer" id="contact">
+        © MASU PHOTO ONLINE ARCHIVE
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
